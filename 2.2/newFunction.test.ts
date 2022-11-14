@@ -1,5 +1,4 @@
 import { myFunction } from "./newFunction";
-
 describe("myFunction", () => {
   it("returns the word 'true' if I pass the function the number 5", () => {
     expect(myFunction(5)).toBe("true");
